@@ -1,0 +1,17 @@
+
+@media(min-width: 1280px) {
+    .header {
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    justify-content: center;
+    }
+}
+@media(max-width: 1280px) {
+    .header {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    justify-content: center;
+    }
+}

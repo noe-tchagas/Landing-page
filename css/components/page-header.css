@@ -1,0 +1,17 @@
+@media(max-width: 1280px) {
+    .page-header {
+        text-align: center;
+        border-bottom: 3px solid rgb(34, 34, 34);
+    }
+}
+
+@media(min-width: 1280px) {
+    .page-header {
+        text-align: center;
+    }
+}
+
+#page-header-text {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}

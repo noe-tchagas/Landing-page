@@ -1,0 +1,48 @@
+#page-title {
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(228, 228, 228);
+    color: rgb(34, 34, 34);
+    border-radius: 0%;
+    border-bottom: rgb(34, 34, 34);
+
+
+}
+
+.side-illustration {
+    width: 100px;
+    border-radius: 50%;
+}
+
+@media(min-width: 1280px) {
+    .portfolio {
+        display: flex;
+        flex-flow: row;
+        margin: 0;
+        justify-content: center;
+        background-color: rgb(241, 241, 241);
+    }
+}
+
+@media(max-width: 1280px) {
+    .portfolio {
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        justify-content: center;
+        background-color: rgb(241, 241, 241);
+    }
+}
+
+.member-card {
+    text-align: center;
+    margin: 5%;
+}
+
+.bio {
+    font-size: 16px;
+    text-align: justify;
+
+    padding: 10px;
+    color: rgb(104, 104, 104);
+}

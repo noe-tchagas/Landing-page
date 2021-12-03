@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant:ital,wght@0,400;1,300&display=swap');
+@import url(components/container.css);
+@import url(components/avatar-round.css);
+@import url(components/button.css);
+@import url(components/section-btn.css);
+@import url(components/header.css);
+@import url(components/banner.css);
+@import url(components/page-header.css);
+@import url(components/page.css);
+@import url(components/portfolio.css);
+@import url(components/member-card.css);
+@import url(components/team.css);
+
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+
+
+}
+
+p, a {
+    font-family: 'Comorant', serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(241, 241, 241);
+
+}
+
+#executive-summary {
+    padding: 56px;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    text-align: justify;
+}
+
+footer {
+    text-decoration: none;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(241, 241, 241);
+  }
+  .footer {
+      text-decoration: none;
+      color: rgb(197, 197, 197);
+      margin-top: 32px;
+  }

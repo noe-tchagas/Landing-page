@@ -1,0 +1,9 @@
+.avatar-round {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#picture-shadow {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.616);
+}
